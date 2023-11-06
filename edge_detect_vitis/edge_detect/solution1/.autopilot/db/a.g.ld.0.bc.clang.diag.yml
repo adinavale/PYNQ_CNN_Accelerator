@@ -1,0 +1,18 @@
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: ../Vitis-HLS-Introductory-Examples/Interface/Streaming/using_axi_stream_with_side_channel_data/example.cpp, 
+                   Line: 29, Column: 22 }
+Function:        _Z7exampleRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6EEELi0EEES6_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          ' '
+  - LoopLoc:         '../Vitis-HLS-Introductory-Examples/Interface/Streaming/using_axi_stream_with_side_channel_data/example.cpp:29:22'
+  - String:          ' '
+  - Function:        'example(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul>, 0>&)'
+    DebugLoc:        { File: ../Vitis-HLS-Introductory-Examples/Interface/Streaming/using_axi_stream_with_side_channel_data/example.cpp, 
+                       Line: 23, Column: 0 }
+  - String:          ' '
+...

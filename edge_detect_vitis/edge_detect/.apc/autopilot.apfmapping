@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="/home/anon/Desktop/masters_proj/PYNQ_CNN_Accelerator/edge_detect_vitis/example.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="example_test.cpp" path="/home/anon/Desktop/masters_proj/PYNQ_CNN_Accelerator/edge_detect_vitis/example_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
